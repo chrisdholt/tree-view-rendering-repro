@@ -6,3 +6,7 @@ body {
   font-family: aktiv-grotesk, 'Segoe UI', Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
+
+*:not(:defined) {
+  opacity: 0;
+}
